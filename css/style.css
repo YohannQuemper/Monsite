@@ -1,0 +1,26 @@
+.présentation{
+    display: flex;
+
+justify-content: left ;
+}
+
+.description{
+    display: flex;
+
+justify-content: center ;
+}
+
+.navbar-brand{
+
+font-size: xx-large;
+font-weight: 500;
+color: rgb(214, 64, 64);
+
+
+
+
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+  }
