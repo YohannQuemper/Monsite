@@ -20,7 +20,9 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary nav-color">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">GamesOnline</a>
+      <a class="navbar-brand" href="index.html">GamesOnline 
+        <img src="../Monsite-main/img/logo/jeux.png" alt="" class="navbar-logo">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,44 +30,47 @@
       <div class="collapse navbar-collapse nav-space" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-space">
           <li class="nav-item nav-space">
-            <a class="nav-link active nav-space" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active " aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item nav-space">
             <a class="nav-link active nav-space" href="ark.html">Ark</a>
           </li>
           <li class="nav-item nav-space">
-          <a class="nav-link active nav-space" href="destiny2.html">Destiny 2</a>
-        </li>
-        <li class="nav-item nav-space">
-        <a class="nav-link active nav-space" href="dofus.html">Dofus</a>
-      </li>
-          
-      
+            <a class="nav-link active nav-space" href="destiny2.html">Destiny 2</a>
+          </li>
+          <li class="nav-item nav-space">
+            <a class="nav-link active nav-space" href="dofus.html">Dofus</a>
+          </li>
+
+
         </ul>
-      
+
       </div>
     </div>
   </nav>
 
   <div class="container">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title"> Titre </h5>
-      <p class="card-text"> Présentation  </p>
-     
-    </div>
-    
+
+
+
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"> Trouvez le jeu qui vous convient à travers ces différents jeux ! </h5>
+        
+
+      </div>
+
       <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            
+
             <img src="img/ark/arkprésentation.png" class="d-block w-100 size-img" alt="...">
           </div>
           <div class="carousel-item">
             <img src="img/destiny2/d2.PNG" class="d-block w-100 size-img" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/dofus/dofuscarousel.png" class="d-block w-100 size-img" alt="...">
+            <img src="img/dofus/dofuscarousel2.jpg" class="d-block w-100 size-img" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -78,6 +83,21 @@
         </button>
       </div>
     </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
@@ -85,11 +105,12 @@
           <img src="img/ark/arkprésentation.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
           </div>
           <button type="button" class="btn btn-dark">
-            <a href="ark.html"> En savoir plus </a>
-            </button>
+            <a href="https://ark-france.fr/"> En savoir plus </a>
+          </button>
         </div>
       </div>
       <div class="col">
@@ -100,94 +121,100 @@
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
           <button type="button" class="btn btn-dark">
-            <a href=" [lien vers la page]"> En savoir plus </a>
-            </button>
+            <a href="https://www.bungie.net/7/fr/Destiny/NewLight"> En savoir plus </a>
+          </button>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="img/dofus/dofuscarousel.png" class="card-img-top" alt="...">
+          <img src="img/dofus/dofuscarousel.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <button type="button" class="btn btn-dark">
-            <a href=" [lien vers la page]"> En savoir plus </a>
-            </button>
+            <a href="https://www.dofus.com/fr/prehome"> En savoir plus </a>
+          </button>
         </div>
       </div>
     </div>
     <br>
     <br>
     <br>
-    <h1 class="form-contact" id="contact">Formulaire de contact</h1>
-    <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
-       <table class="form-style">
-          <tr>
-             <td>
-                <label>
-                   Votre nom <span class="required"></span>
-                </label>
-             </td>
-             <td>
-                <input type="text" name="name" class="long"/>
-                <span class="error" id="errorname"></span>
-             </td>
-          </tr>
-          <tr>
-             <td>
-                <label>
-                   Votre adresse e-mail <span class="required"></span>
-                </label>
-             </td>
-             <td>
-                <input type="email" name="email" class="long"/>
-                <span class="error" id="erroremail"></span>
-             </td>
-          </tr>
-          <tr>
-             <td>
-                <label>
-                   Message <span class="required">*</span>
-                </label>
-             </td>
-             <td>
-                <textarea name="message" class="long field-textarea"></textarea>
-                <span class="error" id="errormsg"></span>
-             </td>
-          </tr>
-          <tr>
-             <td></td>
-             <td>
-                <input type="submit" value="Envoyer">
-                <input type="reset" value="Réinitialiser"> 
-             </td>
-          </tr>
-       </table>
+     <div class="border-margin-contact">
+       <h1 class="form-contact color-txt" id="contact">Formulaire de contact</h1>
+      <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+      <table class="form-style color-txt">
+        <tr>
+          <td>
+            <label>
+              Votre nom <span class="required"></span>
+            </label>
+          </td>
+          <td>
+            <input type="text" name="name" class="long" placeholder="Je m'appelle"/>
+            <span class="error" id="errorname"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              Votre adresse e-mail <span class="required"></span>
+            </label>
+          </td>
+          <td>
+            <input type="email" name="email" class="long" placeholder="@example.com"/>
+            <span class="error" id="erroremail"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              Message <span class="required">*</span>
+            </label>
+          </td>
+          <td>
+            <textarea name="message" class="long field-textarea" placeholder="Tape ton message"></textarea>
+            <span class="error" id="errormsg"></span>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Réinitialiser">
+          </td>
+        </tr>
+      </table>
     </form>
+     </div>
+    
+
   </div> <!-- fermeture du container -->
   <article>
     <footer>
-      <img class="footer-logo" src="img/footer.png" alt="logo de footer">
-      <p>© Yohann Quemper GBS1 <p>
+      <img class="footer-logo" src="../Monsite-main/img/logo/jeux.png" alt="...">
+      <p>© Yohann Quemper GBS1
+      <p>
 
       </p>yquemper@gaming.bs</p>
-        
-  </footer>
-</article>
-  
+
+    </footer>
+  </article>
 
 
 
 
 
-  
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
-integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
-crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+    integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+    crossorigin="anonymous"></script>
 
 </body>
 
