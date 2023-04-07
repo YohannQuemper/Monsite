@@ -74,10 +74,6 @@ footer {
     color: #fff;
 }
 
-.footer-logo {
-    height: 30px;
-    width: 30px;
-}
 
 .footer-img {
     height: 25px !important;
@@ -228,6 +224,7 @@ textarea {
 }
 
 .card-title{
+
 font-weight: bold;
  font-family: cursive;
 }
@@ -289,7 +286,7 @@ margin-left: 10px;
 }
 
 .card-body2{
-    padding-top: 90px;
+   
     margin-left: 10px;
     
     }
